@@ -1,0 +1,559 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#firstttt {
+
+    list-style-type: none;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#firstttt a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 30px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+}
+
+#list {
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+
+
+#picture {
+    /* width: 100vw; */
+    /* display: flex;
+    flex-direction: row; */
+    /* height: 95vh; */
+    background-image: url(/main2.jpg);
+    background-size: cover;
+    box-shadow: 0px 5px 5px #424242;
+    border-radius: 0px;
+    color: #fff;
+    position: relative;
+    padding-top: 100px;
+
+}
+
+#logo {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    margin-left: 30px;
+    color: #ff4fe8;
+    cursor: pointer;
+}
+
+
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    margin-top: -70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: transparent; */
+    /* margin-top: 50px; */
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0));
+
+    z-index: 9999;
+
+}
+
+
+
+
+
+
+
+#on_picture {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 100px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+#form_on_picture {
+    border-radius: 10px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 384px;
+}
+
+#tain {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+#first {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #ff4fe8;
+
+
+}
+
+#from1 {
+    margin-bottom: 0px;
+}
+
+label {
+    height: 16px;
+    width: 352px;
+    color: black;
+    margin: 16px 10px 8px;
+}
+
+legend {
+    color: black;
+}
+
+fieldset {
+    padding-left: 0px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border: none;
+}
+
+.sidebtn {
+    border-bottom: none;
+    border-radius: 8px 8px 0px 0px;
+    margin-left: 10px;
+}
+
+.input2 {
+    margin-top: 0px;
+}
+
+
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: #ff4fe8;
+    border: 1px solid rgba(0, 0, 0, 0.801);
+}
+
+
+
+
+::placeholder {
+    padding-left: 10px;
+}
+
+fieldset input {
+    margin-top: 0px;
+}
+
+input {
+    margin: 10px;
+    border: 0.5px solid rgb(37, 36, 36);
+    width: 352px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#search {
+    margin: 20px;
+    width: 352px;
+    height: 40px;
+    background-color: rgb(255, 1, 44);
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+#mainheading {
+    font-size: 35.52px;
+    margin: 0px 150px 0px 0px;
+    padding: 0px;
+}
+
+
+#secondddd {
+    list-style: none;
+    font-size: 20px;
+}
+
+#secondddd li {
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#review a p {
+    color: white;
+
+    font-size: 20px;
+
+    margin-left: 50px;
+
+}
+
+.playyyy {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* afterrrrrrr picture */
+#extraaa {
+    width: 100vw;
+    height: 200px;
+    /* background-color: #ff4fe8; */
+}
+
+#second_heading_div {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+#second_heading_div h2 {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+
+#picture_extraa {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.allpic {
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+#pic1 {
+    margin-left: 30px;
+    background-image: url(/cards1.jpg);
+    background-size: cover;
+
+}
+
+#pic2 {
+    background-image: url(/card2.jpg);
+    background-size: cover;
+}
+
+#pic3 {
+    background-image: url(/card3.jpg);
+    background-size: cover;
+}
+
+#pic4 {
+    background-image: url(/card4.jpg);
+    background-size: cover;
+}
+
+.picture_discxription p {
+    text-align: center;
+    background-color: rgba(43, 43, 238, 0.463);
+    font-weight: 900;
+    font-size: 25px;
+    position: relative;
+    top: 350px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    padding: 0;
+    margin: 0px;
+}
+
+.payment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.allpayment {
+    padding-left: 100px;
+}
+
+#visa {
+    font-weight: 900;
+    font-size: 20px;
+    font-style: italic;
+    color: orange;
+}
+
+#internatinal {
+    padding-right: 50px;
+}
+
+/* */
+.papuler {
+    background-color: #F2F0EF;
+    text-align: left;
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: center; */
+
+}
+
+.papulerhead {
+    padding-left: 50px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.links-for-papuler {
+    text-decoration: none;
+    color: #0088ce;
+    border: 1px solid #dadada;
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.linksssss {
+    margin: 30px;
+    margin-left: 50px;
+
+}
+
+.links-for-papuler:hover {
+    border: 1px solid #0088ce;
+}
+
+.sidebtn:hover {
+    background-color: #fff;
+
+}
+
+.firstlinks {
+    background-color: #3f3f3f;
+    padding: 30px;
+
+}
+
+.footerlinks {
+    color: #fff;
+    margin: 0px 16px 0px 0px;
+    padding: 12px 0px;
+}
+
+#copyright {
+    color: #fff;
+    font-weight: 900;
+}
+
+#lineeeeeeeeee {
+
+    margin-left: 0;
+    margin-right: 0;
+
+
+
+}
+
+
+@media (min-width:320px) and (max-width:480px) {
+    #on_picture {
+        flex-direction: column;
+        padding-right: 100px;
+
+    }
+
+    /* #picture {
+        margin-right: 100px;
+    } */
+
+    #picture_extraa {
+        flex-direction: column;
+
+    }
+
+    #navbar {
+        width: 100%;
+        height: 40px;
+    }
+
+    #picture {
+        width: 750px;
+    }
+
+    .payment {
+        flex-direction: column;
+    }
+
+    #form_on_picture {
+        width: 600px;
+        margin: auto;
+        height: 700px;
+    }
+
+    input {
+        margin-bottom: 20px;
+        width: 550px;
+
+    }
+
+    #first input {
+        margin-bottom: 20px;
+    }
+
+    #tain {
+        font-size: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #search {
+        margin-left: 120px;
+    }
+
+    .allpic {
+        width: 550px;
+        height: 600px;
+        margin-left: 100px;
+    }
+
+    .picture_discxription p {
+        font-size: 35px;
+        top: 520px;
+    }
+
+    #pic1 {
+        margin-left: 90px;
+    }
+
+    #second_heading_div {
+        width: 750px;
+        text-align: center;
+    }
+
+    #second_main {
+        font-weight: bolder;
+        font-size: 50px;
+    }
+
+    .allpayment {
+        font-size: 40px;
+    }
+
+    .payment {
+        width: 700px;
+    }
+
+    #visa {
+
+        font-size: 50px;
+        padding-left: 0px;
+        margin: 0px;
+    }
+
+    .papuler {
+        width: 700px;
+        height: 1000px;
+        margin-left: 40px;
+    }
+
+    .papulerhead {
+        font-size: 35px;
+    }
+
+    .links-for-papuler {
+        font-size: 30px;
+    }
+
+    footer {
+        display: none;
+    }
+
+    #logo p {
+        font-size: 20px;
+    }
+
+    #navbar {
+        padding-top: 20px;
+        width: 750px;
+    }
+
+    #mainheading {
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .feature {
+
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    #secondddd li {
+        width: 400px;
+    }
+
+    #review a p {
+        font-size: 30px;
+    }
+
+    .playyyy {
+        width: 190px;
+        margin-left: 50px;
+    }
+
+    ::placeholder {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    .sidebtn {
+        font-size: 20px;
+    }
+
+    .links-for-papuler:hover {
+        border: 1px solid #0088ce;
+    }
+
+    .sidebtn:hover {
+        background-color: #fff;
+
+    }
+}
